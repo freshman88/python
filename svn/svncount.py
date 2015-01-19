@@ -8,6 +8,8 @@ class counter():
 	can't help now :(
 
 	but you can read code,it's easy :)
+
+	require: pysvn
 	"""
 	def __init__(self,url,revision_start_num,revision_end_num,
 		tmp_path='c://tmp/svncount'):

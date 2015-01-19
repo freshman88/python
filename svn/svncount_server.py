@@ -5,6 +5,9 @@ import json
 from svncount import counter
 
 class MyHandler(BaseRequestHandler):
+	"""
+	useage: count;;url:xxx;start:xxx;end:xxx;
+	"""
 	def handle(self):
 		indata=self.request.recv(1024*5)
 		outdata=self.deal(indata)
